@@ -1,0 +1,6 @@
+@LowCostAirTickets_HostAddress = http://localhost:5146
+
+GET {{LowCostAirTickets_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

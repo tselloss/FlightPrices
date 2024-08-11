@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "G6cVf1PEexxOMxoO8DhN+VvSbGMAHJdoFoBtUAXqpbM=",
+  "Source": "LowCostAirTickets",
+  "BasePath": "_content/LowCostAirTickets",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
