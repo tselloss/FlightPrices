@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karac\\source\\repos\\LowCostAirTickets\\GetAegeanAirlinesLowCostTickets\\GetAegeanAirlinesLowCostTickets.csproj": {}
+    "C:\\Users\\karac\\source\\repos\\FlightPrices\\GetAegeanAirlinesLowCostTickets\\GetAegeanAirlinesLowCostTickets.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karac\\source\\repos\\LowCostAirTickets\\GetAegeanAirlinesLowCostTickets\\GetAegeanAirlinesLowCostTickets.csproj": {
+    "C:\\Users\\karac\\source\\repos\\FlightPrices\\GetAegeanAirlinesLowCostTickets\\GetAegeanAirlinesLowCostTickets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karac\\source\\repos\\LowCostAirTickets\\GetAegeanAirlinesLowCostTickets\\GetAegeanAirlinesLowCostTickets.csproj",
+        "projectUniqueName": "C:\\Users\\karac\\source\\repos\\FlightPrices\\GetAegeanAirlinesLowCostTickets\\GetAegeanAirlinesLowCostTickets.csproj",
         "projectName": "GetAegeanAirlinesLowCostTickets",
-        "projectPath": "C:\\Users\\karac\\source\\repos\\LowCostAirTickets\\GetAegeanAirlinesLowCostTickets\\GetAegeanAirlinesLowCostTickets.csproj",
+        "projectPath": "C:\\Users\\karac\\source\\repos\\FlightPrices\\GetAegeanAirlinesLowCostTickets\\GetAegeanAirlinesLowCostTickets.csproj",
         "packagesPath": "C:\\Users\\karac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karac\\source\\repos\\LowCostAirTickets\\GetAegeanAirlinesLowCostTickets\\obj\\",
+        "outputPath": "C:\\Users\\karac\\source\\repos\\FlightPrices\\GetAegeanAirlinesLowCostTickets\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

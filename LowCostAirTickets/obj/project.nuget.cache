@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fnf0KrPCkJ0=",
+  "dgSpecHash": "zlfbgdJO6ac=",
   "success": true,
-  "projectFilePath": "C:\\Users\\karac\\source\\repos\\LowCostAirTickets\\LowCostAirTickets\\LowCostAirTickets.csproj",
+  "projectFilePath": "C:\\Users\\karac\\source\\repos\\FlightPrices\\LowCostAirTickets\\LowCostAirTickets.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karac\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\karac\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
