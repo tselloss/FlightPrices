@@ -1,5 +1,6 @@
 ﻿using GetAegeanAirlinesLowCostTickets.Extensions;
 using GetAegeanAirlinesLowCostTickets.Interface;
+using GetLowCostAirTickets.Common;
 using Newtonsoft.Json;
 using static GetAegeanAirlinesLowCostTickets.AegeanModel.AegeanModel;
 
@@ -35,7 +36,7 @@ namespace GetAegeanAirlinesLowCostTickets.Service
             HttpResponseMessage httpResponseMessage = await aegeanHttpClient.GetAsync(url);
             httpResponseMessage.EnsureSuccessStatusCode();
 
-            var responseBody = await Deserializer.DeserializationAsync(httpResponseMessage);
+            var responseBody = await JsonDeserializer.DeserializationAsync(httpResponseMessage);
             List<Destination> destinations = JsonConvert.DeserializeObject<List<Destination>>(responseBody);
 
 
@@ -49,7 +50,7 @@ namespace GetAegeanAirlinesLowCostTickets.Service
             HttpResponseMessage httpResponseMessage = await aegeanHttpClient.GetAsync(url);
             httpResponseMessage.EnsureSuccessStatusCode();
 
-            var responseBody = await Deserializer.DeserializationAsync(httpResponseMessage);
+            var responseBody = await JsonDeserializer.DeserializationAsync(httpResponseMessage);
             var jsonData = JsonConvert.DeserializeObject<LowFareCalendarResponse>(responseBody);
 
             return jsonData;
@@ -58,11 +59,11 @@ namespace GetAegeanAirlinesLowCostTickets.Service
         async Task<LowFareCalendarResponse> IAegean.GetSingleFlightInfo()
         {
             var aegeanHttpClient = await DefineHttpClient.GetHttpClient();
-            var url = StringConcatenation.GetRoundTripUrl(CitiesEnum.ATH.ToString(), CitiesEnum.HAM.ToString());
+            var url = StringConcatenation.GetRoundTripUrl("ATH", "BCN");
             HttpResponseMessage httpResponseMessage = await aegeanHttpClient.GetAsync(url);
             httpResponseMessage.EnsureSuccessStatusCode();
 
-            var responseBody = await Deserializer.DeserializationAsync(httpResponseMessage);
+            var responseBody = await JsonDeserializer.DeserializationAsync(httpResponseMessage);
             var jsonData = JsonConvert.DeserializeObject<LowFareCalendarResponse>(responseBody);
 
             return jsonData;

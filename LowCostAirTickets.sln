@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LowCostAirTickets", "LowCos
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetAegeanAirlinesLowCostTickets", "GetAegeanAirlinesLowCostTickets\GetAegeanAirlinesLowCostTickets.csproj", "{0A802FC6-092E-4D34-9539-3FA5FC42BA55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetVoloteaAirlinesLowCostTickets", "GetVoloteaAirlinesLowCostTickets\GetVoloteaAirlinesLowCostTickets.csproj", "{2EBFAF52-A334-4947-9C6C-39D61CFCFBD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetLowCostAirTickets.Common", "GetLowCostAirTickets.Common\GetLowCostAirTickets.Common.csproj", "{CFC618C3-5581-489A-882B-CF30F07F5C78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0A802FC6-092E-4D34-9539-3FA5FC42BA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A802FC6-092E-4D34-9539-3FA5FC42BA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A802FC6-092E-4D34-9539-3FA5FC42BA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBFAF52-A334-4947-9C6C-39D61CFCFBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBFAF52-A334-4947-9C6C-39D61CFCFBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBFAF52-A334-4947-9C6C-39D61CFCFBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBFAF52-A334-4947-9C6C-39D61CFCFBD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC618C3-5581-489A-882B-CF30F07F5C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC618C3-5581-489A-882B-CF30F07F5C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC618C3-5581-489A-882B-CF30F07F5C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC618C3-5581-489A-882B-CF30F07F5C78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
