@@ -3,21 +3,11 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="VoloteaModels\Volotea.Model.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="VoloteaController\" />
-    <Folder Include="VoloteaInterface\" />
-    <Folder Include="VoloteaService\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="VoloteaModels\Volotea.Model.cs" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
   </ItemGroup>
 
 </Project>

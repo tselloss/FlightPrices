@@ -1,7 +1,6 @@
 using GetAegeanAirlinesLowCostTickets.Interface;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System.Runtime.InteropServices;
 using static GetAegeanAirlinesLowCostTickets.AegeanModel.AegeanModel;
 
 namespace LowCostAirTickets.Controllers
